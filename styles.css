@@ -1,0 +1,324 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header {
+    width: 100%;
+    background-color: #030712; /* Cambia a tu color preferido */
+    color: #ffffff;
+    position: fixed; /* Fija el header para que siga al hacer scroll */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que el header esté sobre el resto del contenido */
+}
+
+/* Estilos de la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 68px;
+
+}
+
+.logo p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* Links de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 68px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto hover en los links */
+.nav-links a:hover {
+    background-color: #b5b5b5; /* Color de fondo al hacer hover */
+    border-radius: 5px;
+}
+
+/* Espaciado de contenido principal */
+body {
+    padding-top: 60px; /* Ajustar según la altura del header */
+    background-color: #111827;
+}
+
+.download-cv-button{
+    background-color: #F9FAFB;
+    color: #111827;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#divider{
+    font-size: 40px;
+}
+.download-cv-button:hover {
+    background-color: #555;
+}
+section {
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.salutation{
+    display: flex;
+    padding: 0px 32px 0px 32px;
+    flex-direction: row;
+    width: 1280px;
+    height: 360px;
+    gap: 48px;
+}
+
+#hi{
+    display: flex;
+    text-align: left;
+    font-size: 50px;
+    margin: 0px;
+}
+
+#my-description{
+    display: flex;
+    text-align: justify;
+    max-width: 800px;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+#seccion1 {
+    display:flex;
+    padding: 96px 80px 96px 80px;
+    background-color: #030712; 
+    column-gap: 250px;
+}
+
+.location-icon {
+    width: 25px; /* Ajusta el tamaño del icono */
+    height: 25px;
+    margin-right: 15px; /* Espacio entre el icono y el texto */
+    vertical-align: middle; /* Alinea verticalmente el icono con el texto */
+}
+
+.location-info{
+    display: flex;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 1px;
+    font-size: 16px;
+    color: #D1D5DB;
+}
+
+.location-info p{
+    margin:0px;
+}
+
+.looking-job{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #D1D5DB;
+}
+
+.social-icons-init{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px; /* Espacio entre iconos */
+}
+
+.bullet-icon {
+    width: 10px; /* Ajusta el tamaño del icono */
+    height: 10px;
+    margin-left: 8px;
+    margin-right: 22px; /* Espacio entre el icono y el texto */
+    vertical-align: middle; /* Alinea verticalmente el icono con el texto */
+}
+
+.profile-picture {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-frame {
+    background-color: #68667f;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.profile-frame img {
+    border-radius: 10%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#about-section{ 
+    height: 962px;
+    padding: 96px 80px 96px 80px;
+    justify-content: space-between;
+    background-color: #111827; 
+    }
+
+#work-section { 
+    background-color: #030712;
+    padding: 96px 80px 96px 80px;
+}
+
+#seccion4 { background-color: #FFD700; } /* Dorado */
+
+#seccion5 { background-color: #6A5ACD; } /* Azul pizarra medio */
+
+#seccion6 { background-color: #FF4500; } /* Naranja rojo */
+
+#seccion7 {
+    background-color: #111827; 
+    padding: 96px 80px 96px 80px;
+    }
+
+#seccion8 {
+    padding: 96px 80px 96px 80px;
+    background-color: #030712;
+    color: #cccccc;
+    text-align: center;
+}
+
+.contact-tag {
+    background-color: #374151;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 0px auto 20px auto;
+    padding: 4px 20px 4px 20px;
+    width: 122px;
+    height: 28px;
+    justify-content: center;
+    align-content: center;
+    display: block;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.contact-info a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.copy-icon {
+    width: 20px; /* Ajusta el tamaño según tu preferencia */
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: opacity 0.3s;
+}
+
+
+.social-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.social-icon {
+    width: 20px; /* Ajusta el tamaño según tus necesidades */
+    height: 20px;
+    margin: 0 10px; /* Espacio entre iconos */
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.social-icon:hover {
+    opacity: 0.7; /* Efecto al pasar el cursor */
+}
+
+.copy-icon:hover{
+    opacity: 0.7;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio entre iconos */
+}
+
+
+footer {
+    background-color: #111827;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    min-width: 200px;
+}
+
+footer p {
+     color: #cccccc;
+}
+
+.contact-icon {
+    width: 30px; /* Ajusta el tamaño del icono */
+    height: 30px;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    vertical-align: middle; /* Alinea verticalmente el icono con el texto */
+}
+
+.copy-icon {
+    width: 20px; /* Ajusta el tamaño del icono */
+    height: 20px;
+    margin-left: 10px; /* Espacio entre el texto y el icono de copiar */
+    cursor: pointer;
+}
