@@ -278,9 +278,8 @@ section {
 #work-section { 
     display: flex;
     flex-direction: column;
-    background-color: #5abccd; 
+    background-color: #d7ffd5; 
     padding: 96px 80px 96px 80px;
-    background-color: #FF4500; 
 }
 
 #testimonials-section{
